@@ -1,0 +1,5 @@
+# Full census file is large. Agents should use fixtures/sample-pref.csv.
+popu-pref.csv
+
+# Keep the tiny fixture readable even though *.csv is ignored by default.
+!fixtures/sample-pref.csv

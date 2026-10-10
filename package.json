@@ -1,0 +1,10 @@
+{
+  "name": "adding-up",
+  "private": true,
+  "description": "都道府県の2010→2015人口変化率ランキング",
+  "scripts": {
+    "start": "node app.js",
+    "start:fixture": "node app.js fixtures/sample-pref.csv",
+    "test": "node --test"
+  }
+}
