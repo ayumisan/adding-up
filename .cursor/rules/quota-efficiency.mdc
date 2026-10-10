@@ -1,0 +1,9 @@
+---
+description: この小さいリポジトリでトークンと利用枠を浪費しない
+alwaysApply: true
+---
+
+- リポジトリ地図は `AGENTS.md` を信じ、再探索しない
+- `popu-pref.csv` を Read しない。検証は `fixtures/sample-pref.csv` と `npm test`
+- 広い codebase 検索、余分な Cloud サブエージェント、長いログの全文読みはしない
+- コマンドは `package.json` の scripts を使う
